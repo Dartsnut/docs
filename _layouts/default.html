@@ -22,6 +22,11 @@
           <span class="nav-section">Firmware</span>
           <a class="{% if page.url contains '/firmware/prepare-sd-card/' %}active{% endif %}" href="{{ '/firmware/prepare-sd-card/' | relative_url }}">Prepare SD Card</a>
           <a class="{% if page.url contains '/firmware/app-interaction/' %}active{% endif %}" href="{{ '/firmware/app-interaction/' | relative_url }}">App Interaction</a>
+          <span class="nav-section">Emulator/Agent</span>
+          <a class="{% if page.url contains '/emulator-agent/workspace-handling/' %}active{% endif %}" href="{{ '/emulator-agent/workspace-handling/' | relative_url }}">Workspace Handling</a>
+          <a class="{% if page.url contains '/emulator-agent/emulator-control/' %}active{% endif %}" href="{{ '/emulator-agent/emulator-control/' | relative_url }}">Emulator Control</a>
+          <a class="{% if page.url contains '/emulator-agent/deploy-to-machine/' %}active{% endif %}" href="{{ '/emulator-agent/deploy-to-machine/' | relative_url }}">Deploy To Machine</a>
+          <a class="{% if page.url contains '/emulator-agent/submit-for-review/' %}active{% endif %}" href="{{ '/emulator-agent/submit-for-review/' | relative_url }}">Submit For Review</a>
         </nav>
       </aside>
 
