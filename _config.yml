@@ -1,0 +1,16 @@
+title: Dartsnut Docs
+description: Organization documents, setup guides, and operational notes for Dartsnut projects.
+url: https://dartsnut.github.io
+baseurl: /docs
+
+markdown: kramdown
+theme: null
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
