@@ -154,5 +154,5 @@ sudo reboot
 
 For questions, please refer to the project repository or contact the developer.
 
-  </article>
+</article>
 </div>
