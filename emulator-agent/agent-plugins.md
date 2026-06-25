@@ -123,20 +123,5 @@ The Claude plugin manifest intentionally omits a fixed version. For git-backed
 marketplaces, Claude Code treats the git commit as the plugin version, so each
 new commit can be installed as an update.
 
-## Updating Plugin Content
-
-Do not edit files in `plugins/dartsnut-agent/skills` directly. Those files are
-generated from the canonical skill source in `packages/agent-runtime/skills`.
-
-When changing Dartsnut skills:
-
-```bash
-pnpm run export:agent-plugin
-pnpm run check:agent-plugin
-pnpm --dir packages/agent-runtime run test
-```
-
-Commit the source skill changes and generated plugin output together.
-
 </article>
 </div>
